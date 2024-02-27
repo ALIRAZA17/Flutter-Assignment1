@@ -1,14 +1,9 @@
 import 'package:assignment_1/image_container.dart';
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 const Divider(
-                  color: Colors.grey, // Set the color of the divider
-                  thickness: 1, // Set the thickness of the divider
+                  color: Colors.grey,
+                  thickness: 1,
                 ),
                 RichText(
                   text: const TextSpan(
