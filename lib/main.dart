@@ -1,3 +1,4 @@
+import 'package:assignment_1/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,33 +17,8 @@ class MyApp extends StatelessWidget {
             seedColor: const Color.fromARGB(185, 91, 16, 221)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(),
       debugShowCheckedModeBanner: false,
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Welcome to Flutter"),
-        centerTitle: true,
-        backgroundColor: Theme.of(context).primaryColor,
-        leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.edit))],
-      ),
-      body: Container(),
     );
   }
 }
