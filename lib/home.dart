@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "My name is Muhammad Ali Raza Dar and I'm really excited about this course.",
+                  "My name is Muhammad Ali Raza Dar and I'm really excited about this course of App Development.",
                   style: TextStyle(
                     fontSize: 16,
                   ),
